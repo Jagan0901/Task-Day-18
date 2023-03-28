@@ -1,0 +1,22 @@
+body{
+    background: whitesmoke;
+}
+
+#container  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#card{
+    margin: 25px;
+    background-color: white;
+    border: .1px solid;
+}
+
+#name{
+    text-align: center;
+    font-weight: bold;
+}
