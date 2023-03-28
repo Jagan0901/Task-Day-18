@@ -20,6 +20,8 @@ async function getCountries() {
                     <p class="card-text">Capital: ${country.capital}</p>
                     <p class="card-text">Region: ${country.region}</p>
                     <p class="card-text">Country code: ${country.cca3}</p>
+                    <p class="card-text">Latitude: ${country.latlng[0]}</p>
+                    <p class="card-text">Longitude: ${country.latlng[1]}</p>
                     <button class="btn btn-primary" id="btn" onclick = "getWeather(${country.capital})">Click for Weather</button>  
                     </div>
               </div>
